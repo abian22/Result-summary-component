@@ -1,0 +1,47 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    height: 93vh;
+}
+
+.card {
+    display: flex;
+    border: solid;
+    color: blue;
+    height: 400px;
+    width: 550px;
+}
+
+.bluecontent {
+    display: flex;
+    border: solid;
+    color: red;
+    height: 400px;
+    width: 250px;
+    background: linear-gradient(#9593ee, #3d3dff);
+    align-items: center;
+    justify-content: center;
+}
+
+.whitecontent {
+    border: solid;
+    color: green;
+    width: 300px;
+}
+.circle {
+    border: solid;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    background: linear-gradient(#6235DE, #3d3dff);
+}
+
+h1 {
+    color: white;
+}
