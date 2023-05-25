@@ -1,47 +1,216 @@
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url("/assets/fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: solid;
     height: 93vh;
 }
 
 .card {
     display: flex;
-    border: solid;
-    color: blue;
     height: 400px;
     width: 550px;
 }
 
 .bluecontent {
     display: flex;
-    border: solid;
-    color: red;
     height: 400px;
     width: 250px;
-    background: linear-gradient(#9593ee, #3d3dff);
+    background: linear-gradient(#927ef6, #6d11f8);
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 .whitecontent {
-    border: solid;
-    color: green;
     width: 300px;
+    box-shadow: 10px 5px 10px grey;
+    position:absolute;
+    margin-left: 230px;
+    height: 395px;
 }
 .circle {
-    border: solid;
-    color: black;
     justify-content: center;
     align-items: center;
     display: flex;
     height: 150px;
     width: 150px;
     border-radius: 100px;
-    background: linear-gradient(#6235DE, #3d3dff);
+    background: linear-gradient(#4e009c8d, #6d11f8);
 }
 
 h1 {
     color: white;
+    display: flex;
+    position: relative;
+    font-family: "HankenGrotesk";
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.textnumber{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    color: grey;
+    font-size: 12px;
+    font-family: "HankenGrotesk";
+}
+
+.resulttext{
+    display: flex;
+    position: absolute;
+    margin-bottom: 270px;
+    color: hsl(241, 100%, 89%);
+    font-family: "HankenGrotesk";
+}
+
+.undercircletext {
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    color: white;
+    font-family: "HankenGrotesk";
+}
+
+.undergreattext {
+    display: flex;
+    position: absolute;
+    margin-top: 300px;
+    width: 200px;
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-family: "HankenGrotesk";
+}
+
+.content {
+    color: black;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.reaction {
+    display: flex;
+    height: 34px;
+    width: 235px;
+    margin-top: 15px;
+    color: hsl(0, 100%, 67%);
+    background-color: rgb(248, 194, 185);
+}
+
+.reactionpoint {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 6px;
+    position: relative;
+    font-family: "HankenGrotesk";
+    color:black;
+}
+
+.reactiontext {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "HankenGrotesk";
+}
+
+.reactionicon {
+    display: flex;
+    margin-left: 1px;
+}
+
+.memorytext {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "HankenGrotesk";
+}
+
+.verbaltext {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "HankenGrotesk";
+}
+
+.visualtext {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-family: "HankenGrotesk";
+}
+
+.memorypoint {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 6px;
+    position: relative;
+    font-family: "HankenGrotesk";
+    color: black;
+}
+
+.verbalpoint {
+    display: flex;
+    margin-left: 53px;
+    margin-top: 6px;
+    position: relative;
+    font-family: "HankenGrotesk";
+    color: black;
+}
+
+.visualpoint {
+    display: flex;
+    margin-left: 53px;
+    margin-top: 6px;
+    position: relative;
+    font-family: "HankenGrotesk";
+    color: black;
+}
+
+.memory {
+    display: flex;
+    height: 34px;
+    width: 235px;
+    margin-top: 15px;
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 85%, 90%);
+}
+
+.verbal {
+    display: flex;
+    height: 34px;
+    width: 235px;
+    margin-top: 15px;
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 83%, 89%);
+}
+
+.visual {
+    display: flex;
+    height: 34px;
+    width: 235px;
+    margin-top: 15px;
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(235, 73%, 88%);;
+}
+
+.continue {
+    display: flex;
+    margin-top: 40px;
+    width: 240px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: hsl(224, 30%, 27%)
 }
